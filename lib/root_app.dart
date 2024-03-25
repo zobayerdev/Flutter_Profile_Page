@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class RootApp extends StatefulWidget {
   const RootApp({super.key});
@@ -186,7 +185,7 @@ class _RootAppState extends State<RootApp> {
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.chat_bubble_2),
-            label: 'Business',
+            label: 'Chats',
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.book),
