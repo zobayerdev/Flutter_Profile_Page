@@ -154,12 +154,12 @@ class _RootAppState extends State<RootApp> {
                 );
               },
               separatorBuilder: (context, index) =>
-                  Padding(padding: EdgeInsets.only(right: 5)),
+                  const Padding(padding: EdgeInsets.only(right: 5)),
               itemCount: profileCompletionCards.length,
             ),
           ),
           const SizedBox(
-            height: 35,
+            height: 10,
           ),
           ...List.generate(customTiles.length, (index) {
             final titls = customTiles[index];
